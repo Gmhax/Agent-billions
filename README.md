@@ -42,7 +42,7 @@ node createNewEthereumIdentity.js
 node manualLinkHumanToAgent.js --challenge '{"name":"YourName","description":"Billions AI Agent from Philippines"}'
 ```
 - Edit "YourName"
-- Follow any links provided in the console to complete the verification.
+- Follow the links provided in the console to complete the verification.
 <img width="1249" height="75" alt="image" src="https://github.com/user-attachments/assets/c787d1d3-8aeb-4d6d-a8d9-9c96599bdead" />
 
 
