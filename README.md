@@ -52,8 +52,8 @@ node manualLinkHumanToAgent.js --challenge '{"name":"YourName","description":"Bi
 
 
 
-# NOTE if you encounter UUID error follow this guide.
-## Fix UUID version in script
+## NOTE if you encounter UUID error follow this guide.
+### Fix UUID version in script
 
 - This avoids the “uuid is not a function” error:
 ```
