@@ -20,7 +20,7 @@ nvm use 20
 ```
 - Check version:
 - node -v
-## should show v20.x.x
+- should show v20.x.x
 
 2. Clone the repository
 ```
