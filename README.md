@@ -60,7 +60,7 @@ cd scripts
 sed -i 's/const { v7: uuid } = require("uuid");/const { v4: uuid } = require("uuid");/' shared/utils.js
 ```
 
-- Run the Script. 
+- Execute the Script follow step 3. 
 
 
 
