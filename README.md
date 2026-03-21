@@ -40,6 +40,7 @@ npm install shell-quote @iden3/js-iden3-auth @0xpolygonid/js-sdk ethers uuid@8.3
 3. run scripts
 ```
 cd scripts
+sed -i 's/const { v7: uuid } = require("uuid");/const { v4: uuid } = require("uuid");/' shared/utils.js
 node createNewEthereumIdentity.js
 node manualLinkHumanToAgent.js --challenge '{"name":"YourName","description":"Billions AI Agent from Philippines"}'
 ```
@@ -54,16 +55,6 @@ node manualLinkHumanToAgent.js --challenge '{"name":"YourName","description":"Bi
 
 
 
-## NOTE if you encounter UUID error follow this guide.
-### Fix UUID version in script
-
-- This avoids the “uuid is not a function” error:
-```
-cd scripts
-sed -i 's/const { v7: uuid } = require("uuid");/const { v4: uuid } = require("uuid");/' shared/utils.js
-```
-
-- Execute the Script follow step 3. 
 
 
 
