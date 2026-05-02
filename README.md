@@ -48,6 +48,21 @@ node manualLinkHumanToAgent.js --challenge '{"name":"YourName","description":"Bi
 - CLick the links provided in the console to complete the verification.
 <img width="1249" height="75" alt="image" src="https://github.com/user-attachments/assets/c787d1d3-8aeb-4d6d-a8d9-9c96599bdead" />
 
+- Intall skill
+```
+npx clawhub@latest install verified-agent-identity
+```
+- Y & enter
+```
+npx skills add BillionsNetwork/verified-agent-identity
+```
+- Y & enter
+
+
+## if you done check you agent did here: https://attestations-explorer.billions.network/
+<img width="1912" height="708" alt="image" src="https://github.com/user-attachments/assets/50088f8a-0d6a-48b9-b32c-4cbd56dbdebe" />
+
+
 
 <img width="416" height="104" alt="image" src="https://github.com/user-attachments/assets/01a86ed7-6f63-4ceb-b513-c829a4136722" />
 
